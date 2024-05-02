@@ -1,6 +1,7 @@
 /* CONTENIDO
  * Nombre: Dayana Cayo
  * Fecha: 02/05/2024
+ * tiempo: 7min 49seg
  * Hacer un programa que cree un arreglo para n 
  * notas, luego que permita ingresarlas y 
  * finalmente que las imprima 
