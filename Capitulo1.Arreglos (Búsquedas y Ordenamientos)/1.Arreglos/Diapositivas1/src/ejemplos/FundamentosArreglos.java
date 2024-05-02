@@ -15,7 +15,14 @@ public class FundamentosArreglos {
 		//<tipoElementos> <nombreArreglo>[] = new <tipoElementos>[<tamaño>];
 		String nombres []=new String [5];
 		
+		//inicializar los valores usando una lista inicializadora 
+		//<tipoElementos>[] <nombreArreglo> = {<listaValoresElementos>};
+		String[] estudiantes= {"Juan", "Adriana", "Carla"};
 		
+		/* El número de índice empieza en 0 en lugar de 1, y el 
+			índice del último valor es igual a la longitud - 1
+			notasFP tamaño 3 [0,1,2]
+		*/
 	}
 
 }
