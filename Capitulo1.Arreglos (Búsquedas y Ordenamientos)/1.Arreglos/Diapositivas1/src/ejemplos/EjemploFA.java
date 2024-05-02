@@ -27,10 +27,9 @@ public class EjemploFA {
 		}
 		
 		//imprimir datos del arreglo
+		//usamos el atributo lenght para obtener el tamaño del arreglo
 		for(int i=0;i<nombres.length;i++) {
 			System.out.println("Nombre "+(i+1)+" : "+nombres[i]);
 		}
-
 	}
-
 }
