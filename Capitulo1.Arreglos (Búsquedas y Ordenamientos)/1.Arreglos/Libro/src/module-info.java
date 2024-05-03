@@ -6,4 +6,5 @@
  *
  */
 module Libro {
+	requires java.desktop;
 }

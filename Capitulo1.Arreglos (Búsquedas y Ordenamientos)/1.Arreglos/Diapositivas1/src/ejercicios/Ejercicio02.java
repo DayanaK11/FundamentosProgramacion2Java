@@ -27,14 +27,14 @@ public class Ejercicio02 {
 		System.out.println("Ingresar numero: ");
 		numero=input.next();
 		
-		while(!(numero.equalsIgnoreCase("q"))&&(contactos.length==100)) {
+		while(!(numero.equalsIgnoreCase("q"))&&(contactos.length<100)) {
 			if(numero.length()==9) {
 				contactos[contador]=numero;
 				contador++;
 			}
 			else
 				System.out.println("Ingrese un numero de 9 digitos");
-			System.out.println("Ingresar numero: ");
+			System.out.println("Ingresar numero ('q' para salir): ");
 			numero=input.next();
 		}
 		//imprimit
